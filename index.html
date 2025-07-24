@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cat Swipe App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🐱 Cat Swipe</h1>
+    <p class="subtitle">Swipe right if you like it. Left if you don’t.</p>
+  </header>
+
+  <main>
+    <div id="card-stack"></div>
+    <div id="swipe-indicator">⬅️ ➡️</div>
+
+    <section id="summary" class="hidden">
+      <h2>You liked <span id="like-count">0</span> cats!</h2>
+      <div id="liked-cats"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Powered by <a href="https://cataas.com" target="_blank">CATAAS</a></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
